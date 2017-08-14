@@ -1,4 +1,7 @@
 # pulsar
+Remark: WIP = Work in Progress, not yet functional
+
+
 Pulsar is an Arduino-Based Radio Transmission System for Measurements and Digital Values
 It aims to be a powerful and versatile RF analog/digital medium-fast data transmission system.
 The first throw runs with NRF24L01 modules, the next one will be LoRa.
@@ -19,3 +22,4 @@ The first throw runs with NRF24L01 modules, the next one will be LoRa.
   -debug mode report on serial monitor
   -plot mode
   -can easily be tweaked to send every minute and sample every second.
+  -I2C LCD Display on the receiving side WIP

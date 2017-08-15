@@ -1,11 +1,12 @@
 # pulsar
-Remark: WIP = Work in Progress, not yet functional
-
+Remark: WIP = Work in Progress, not yet functional parts of the overall sketch
 
 Pulsar is an Arduino-Based Radio Transmission System for Measurements and Digital Values
 It aims to be a powerful and versatile RF analog/digital medium-fast data transmission system.
 The first throw runs with NRF24L01 modules, the next one will be LoRa.
-  It providees a 1 Sec data transmission pace
+  It provides a 1 Sec data transmission pace optimized to using RF transmission less 
+  than 1% of the time (a legal requirement for the 868/900MHz band)
+  It features:
   -optimised for long range: only 16 Bytes payLoad data and reduced transmission speed
   -safe transmission: echo verification, retry 125ms later and again 500mS later if NACK
   -real time scheduler:  data acquisition occurs with constant, reliable 125mS slices

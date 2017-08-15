@@ -1,5 +1,5 @@
 # pulsar
-Remark: WIP = Work in Progress, not yet functional parts of the overall sketch
+Remark: WIP = Work in Progress, marks not yet fully functional parts of the overall sketch
 
 Pulsar is an Arduino-Based Radio Transmission System for Measurements and Digital Values
 It aims to be a powerful and versatile RF analog/digital medium-fast data transmission system.
